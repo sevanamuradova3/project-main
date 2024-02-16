@@ -1,0 +1,46 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#register-form {
+    display: none;
+}
+
+#register-link {
+    margin-top: 20px;
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#login-link {
+    margin-top: 20px;
+    display: none;
+    color: #007bff;
+    text-decoration: none;
+}
